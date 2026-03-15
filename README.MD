@@ -13,6 +13,7 @@ The repository contains:
 * Model predictions for several STIPA systems
 * The **test split** of the WikIPA dataset
 * Scripts to reproduce evaluation heatmaps reported in the paper
+* Representative samples of model predictions with error annotations
 
 
 ## Citation
@@ -68,7 +69,8 @@ Each entry contains the reference IPA transcription for the evaluation set.
 ├── ground_truth.jsonl
 ├── multipa_predictions/
 ├── zipa_predictions/
-└── whipa_predictions/
+├── whipa_predictions/
+└── annotated_samples/
 ```
 
 ### Ground Truth
@@ -85,6 +87,11 @@ Pre-computed predictions for evaluated models are included:
 * `whipa_predictions/`
 
 These correspond to predictions produced by the respective STIPA systems.
+
+### Annotated Samples of Model Predictions
+
+* `annotated_samples´
+    Includes a representative sample of each models' predictions for the English, Italian, and German broad data together with manual error anntations for qualitative evaluation.
 
 ---
 

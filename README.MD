@@ -91,7 +91,16 @@ These correspond to predictions produced by the respective STIPA systems.
 ### Annotated Samples of Model Predictions
 
 * `annotated_samples`
-    Includes a representative sample of each models' predictions for the English, Italian, and German broad data together with manual error anntations for qualitative evaluation.
+    Includes a representative sample of each models' predictions for the English, Italian, and German broad data together with manual error anntations for qualitative evaluation.  
+
+**Error Categories**:  
+
+* 0: Prediction matches gold transcription  
+* 1: Acceptable alternative transcription/variation
+* 2: Plausbile phonetic error
+* 3: Model hallucination  
+* 4: Error in Lingua Libre recordings (not attested here)  
+
 
 ---
 

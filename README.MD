@@ -90,7 +90,7 @@ These correspond to predictions produced by the respective STIPA systems.
 
 ### Annotated Samples of Model Predictions
 
-* `annotated_samples´
+* `annotated_samples`
     Includes a representative sample of each models' predictions for the English, Italian, and German broad data together with manual error anntations for qualitative evaluation.
 
 ---
